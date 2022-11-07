@@ -9,7 +9,7 @@ import { Button } from '../components/Button';
 export function SignIn(){
   const { signIn, user } = useAuth();
 
-  console.log('DADOS DO USUARIO: ', user);
+  // console.log('DADOS DO USUARIO: ', user);
   
 
   return (

@@ -32,7 +32,7 @@ export function AuthContextProvider ({ children }: AuthProviderProps) {
     scopes: ['profile', 'email'],
   })
 
-  console.log(AuthSession.makeRedirectUri({ useProxy: true }))
+  // console.log(AuthSession.makeRedirectUri({ useProxy: true }))
 
   async function signIn () {
     try {
